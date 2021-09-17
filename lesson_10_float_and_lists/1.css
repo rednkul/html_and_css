@@ -1,0 +1,14 @@
+.f {
+border: 1px solid red;
+width: 200px;
+height: 200px;
+margin: 50px}
+
+.s {
+border: 1px solid green;
+width: 200px;
+height: 100%;
+padding: 30px;
+margin: 50px;
+text-align: justify
+}

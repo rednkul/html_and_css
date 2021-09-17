@@ -1,0 +1,14 @@
+.f{
+list-style-type: square}
+
+.s{
+list-style-type: circle}
+
+.t {
+list-style-type: none}
+
+.fr {
+list-style-image: url('marker.jpg')}
+
+.fv {
+list-style-type: lower-greek}
