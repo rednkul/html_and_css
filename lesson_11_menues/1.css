@@ -1,4 +1,4 @@
-/* Первое задание */
+/* Р—Р°РґР°С‡Р° 1 */
 .f {
 color: blue;
 list-style-position: inside}
@@ -12,7 +12,7 @@ list-style-position: inside}
 color:orangered;
 text-decoration: underline;
 }
-/* Второе задание */
+/* Р—Р°РґР°С‡Р° 2 */
 .s {
     color: blue;
     list-style-type: none;
@@ -36,7 +36,7 @@ text-decoration: underline;
     font-weight: bold;
     }
 
-/* Третье задание */
+/* Р—Р°РґР°С‡Р° 3 */
 .t {
     color: white;
     list-style-type: none;
@@ -49,8 +49,8 @@ text-decoration: underline;
     height: 30px;
     margin: 5px;
     box-sizing: border-box;
-    text-align: -webkit-match-parent;
-    font-family: Arial
+    font-family: Arial;
+    display: block;
         }
 
 
@@ -59,17 +59,17 @@ text-decoration: underline;
     width: 100%;
     color:white;
     text-decoration: none;
-    box-sizing: content-box;
-    margin: 5px 5px 5px 5px;
     display: block;
+    box-sizing: border-box;
+    padding: 5px 0px 2px 5px;
     }
 
 .t a:hover {
     background-color: white;
     font-weight:normal;
     color: black;
-    box-sizing: border-box;
     display: block;
-    margin: 5px 5px 5px 5px;
+    padding: 5px 0px 2px 5px;
+
 
     }
