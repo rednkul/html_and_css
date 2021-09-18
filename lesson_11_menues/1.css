@@ -70,6 +70,51 @@ text-decoration: underline;
     color: black;
     display: block;
     padding: 5px 0px 2px 5px;
+    }
 
+/* Задача 4 */
+.fr {
+    list-style-type: none;
+    }
+
+.fr li {
+    border: #09f 1px solid;
+    background-color: #09f;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: Arial;
+    display: block;
+        }
+
+
+.fr a:link, .fr a:visited {
+    height: 100%;
+    width: 100%;
+    color:white;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px 0px 2px 5px;
+    }
+
+.fr a:hover {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: #09f;
+    display: block;
+    padding: 5px 0px 2px 5px;
+    background-image: url('plane.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
 
     }
+#one {
+    background-image: url('plane.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    color: #09f;
+    background-color: white;
+}
