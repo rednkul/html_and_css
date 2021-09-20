@@ -85,27 +85,26 @@ text-decoration: underline;
     margin: 5px;
     box-sizing: border-box;
     font-family: Arial;
-    display: block;
+
         }
 
 
-.fr a:link, .fr a:visited {
+.fr a {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 5px 0px 2px 5px;
+}
+
+.fr a:link, .fr a:visited {
     color:white;
     text-decoration: none;
-    display: block;
-    box-sizing: border-box;
-    padding: 5px 0px 2px 5px;
     }
 
 .fr a:hover {
-    height: 100%;
-    width: 100%;
     background-color: white;
     color: #09f;
-    display: block;
-    padding: 5px 0px 2px 5px;
     background-image: url('plane.png');
     background-repeat: no-repeat;
     background-position: 90% 50%;
@@ -118,3 +117,167 @@ text-decoration: underline;
     color: #09f;
     background-color: white;
 }
+
+/* Задача 5 */
+
+.fv {
+    color: blue;
+    list-style-type: none;
+    }
+
+.fv li {
+    outline: blue 1px solid;
+    margin: 1px;
+    box-sizing: content-box;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.fv a {
+padding:5px;
+display:block;
+
+}
+
+.fv a:link, .fv a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.fv a:hover {
+    color: orangered;
+    }
+
+/* Задача 6 */
+
+.sx {
+    color: blue;
+    list-style-type: none;
+    }
+
+.sx li {
+    outline: blue 1px solid;
+    margin: 3px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sx a {
+display: block;
+padding: 5px;
+}
+
+
+.sx a:link, .sx a:visited {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.sx a:hover {
+    color: white;
+    background-color: black;
+    }
+
+#two {
+    color: white;
+    background-color: black;
+}
+.clearfix {
+clear: both;
+}
+
+/* Задача 7 */
+
+.sn {
+    color: blue;
+    list-style-type: none;
+    }
+
+.sn li {
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sn a {
+display: flex;
+align-items: flex-end;
+padding: 0px 10px;
+height: 60px;
+background-position:50% 0%;
+background-repeat: no-repeat;
+    }
+
+
+.sn a:link, .sn a:visited {
+    color: gray;
+    text-decoration: none;
+    background-image: url('7/eto2.png');
+
+}
+
+.sn a:hover {
+    color: darkred;
+    background-image: url('7/eto.png');
+
+    }
+
+.bor div {
+border:1px dotted black;
+margin:15px;
+}
+
+/* Задача 8 */
+
+#eti div {
+width: 50%;
+background: orange;
+border: 1px solid black;
+
+}
+
+.et {
+    color: blue;
+    list-style-type: none;
+    background: #fc9d00;
+    width: 35%;
+    }
+
+.et li {
+    margin-left: -3px;
+    box-sizing: border-box;
+    display: inline-block;
+
+
+}
+
+.et a {
+padding: 5px;
+display:block;
+height: 30px;
+line-height: 30px;
+
+}
+
+.et a:link, .fv a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.et a:hover {
+    background-color: #e93301;
+    }
+
+/* Задача 9 */
+#hed th{
+border0-bottom: 1x solid black;
+
+}
+
+a:link, a:visited {
+text-decoration: none;}
+
+a:hover{
+text-decoration: underline;}
