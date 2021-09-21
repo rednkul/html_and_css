@@ -1,0 +1,32 @@
+div {
+margin:0% 31.2%;
+border: 1px solid black;
+text-align:justify;
+padding: 0px 20px 55px 20px;
+box-sizing: content-box;
+}
+
+h2 {
+color: blue;
+}
+
+
+p {
+font-size:16px;
+line-height: 19px;
+}
+
+a {
+color: blue;}
+
+a:link, a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a.pod {
+margin: 5px 0px 20px 0px;
+float:right;}

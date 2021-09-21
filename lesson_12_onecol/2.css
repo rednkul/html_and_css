@@ -1,0 +1,27 @@
+div {
+border: 1px solid grey;
+margin: 5px 30.85%;
+padding: 0px 20px 20px 20px;
+}
+
+.img {
+float: left;
+margin: 6px 7px 0px 0px;
+border: 1px solid black;
+}
+
+p {
+display: block;
+text-align: justify;
+font: 13px/27px Arial
+}
+
+.more {
+text-align: right}
+
+a:link, a:visited {
+color:blue;
+text-decoration: none}
+
+a:hover {
+text-decoration: underline}

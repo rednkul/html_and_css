@@ -1,0 +1,84 @@
+body {
+margin:0px}
+
+div.big {
+margin: 0px 26%;
+border-left:1px solid orange;
+border-right:1px solid orange;
+border-bottom:1px solid orange;
+box-sizing: content-box;
+}
+
+ul.f {
+background-color: orange;
+padding-inline-start: 0;
+}
+
+.f li {
+display: inline-block;
+box-sizing: content-box;
+margin-right: -5px;
+}
+
+
+.f li a {
+display: block;
+padding: 20px;
+font: bold 13px Arial;
+}
+
+
+.f li a:link, .f li a:visited {
+color: white;
+text-decoration: none;
+}
+
+.f li a:hover {
+color: orange;
+background-color: white;
+}
+
+#main {
+color: orange;
+text-decoration: none;
+background-color: white;
+}
+
+h1, h2 {
+text-align: center;
+color: #9b6100;
+margin-block-end: 0.2em;
+}
+
+p {
+text-align: justify;
+margin-block-start: 0.5em;
+text-indent: 50px;
+font: 17px/33px 'Times New Roman';
+color: #cc8000;
+margin: 0px 10px 10px 10px
+}
+
+div.small {
+margin: 0px 26%;
+}
+
+.small ul {
+margin: 5px 26%;
+padding-inline-start: 60px;}
+
+.small li {
+display: inline-block}
+
+.small a {
+padding: 10px;}
+
+.small a:link, .small a:visited {
+text-decoration: none;
+color: #9b6100;
+}
+
+.small a:hover {
+text-decoration: underline;
+color: #000;
+}

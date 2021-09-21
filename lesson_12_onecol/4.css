@@ -1,0 +1,53 @@
+div.big {
+border: 1px black solid;
+margin: 50px 31%;
+box-sizing: block-content;
+padding-bottom: 10px;}
+
+h1 {
+text-align: center;
+margin-block-end: 0em;
+}
+
+p {
+text-align: justify;
+font: 17px/20px 'Times New Roman';
+margin:10px 15px 0px 15px;}
+
+ul {
+background-color: #282828;
+padding-inline-start:0;
+margin-block-start: 0;
+
+}
+
+li {
+display: inline-block;}
+
+li a {
+padding: 7px;
+display:block;
+text-decoration: none;
+font:15px Arial bold;
+}
+
+li a:link, li a:visited {
+color: white;
+}
+
+li a:hover {
+color: #282828;
+background: white;
+font:15px Arial bold;
+}
+
+p a:link, p a:visited {
+text-decoration: none;
+font-weight: bold;
+color: blue;
+}
+
+p a:hover {
+text-decoration: underline;
+color: green;
+}
